@@ -6,6 +6,7 @@ def make_diagonal(v):
     """
     # Write code here
     v1=np.zeros((len(v),len(v)))
+    v1=np.diag(v)
     for i in range(len(v1)):
         for j in range(len(v1)):
             if(i==j):
